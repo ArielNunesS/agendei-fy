@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Button } from '@/components/ui/button';
+import { Button } from '../../components/ui/button';
 import { Loader2, Plus, Bell } from 'lucide-react';
 import { motion } from 'framer-motion';
 

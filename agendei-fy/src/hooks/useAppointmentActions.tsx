@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
-import { AppointmentProps } from '@/components/dashboard/AppointmentCard';
-import { toast } from '@/components/ui/use-toast';
+import { AppointmentProps } from '../../components/dashboard/AppointmentCard';
+import { toast } from '../../components/ui/use-toast';
 
 interface UseAppointmentActionsReturn {
   selectedAppointment: AppointmentProps | null;

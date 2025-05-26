@@ -1,8 +1,8 @@
 
 import React from 'react';
-import { ScrollArea } from "@/components/ui/scroll-area";
+import { ScrollArea } from "../../components/ui/scroll-area";
 import AppointmentCard, { AppointmentProps } from './AppointmentCard';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '../../components/ui/card';
 import { motion } from 'framer-motion';
 import { CalendarClock } from 'lucide-react';
 

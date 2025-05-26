@@ -1,10 +1,10 @@
 
 import React from 'react';
-import { Calendar } from '@/components/ui/calendar';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Calendar } from '../../components/ui/calendar';
+import { Card, CardContent, CardHeader, CardTitle } from '../../components/ui/card';
 import { AppointmentProps } from './AppointmentCard';
 import { motion } from 'framer-motion';
-import { Badge } from '@/components/ui/badge';
+import { Badge } from '../../components/ui/badge';
 import { CalendarIcon } from 'lucide-react';
 import dayjs from 'dayjs';
 

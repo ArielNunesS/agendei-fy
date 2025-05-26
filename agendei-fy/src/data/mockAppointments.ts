@@ -1,5 +1,5 @@
 
-import { AppointmentProps } from '@/components/dashboard/AppointmentCard';
+import { AppointmentProps } from '../../components/dashboard/AppointmentCard';
 
 // Mock data for appointments
 export const mockAppointments: AppointmentProps[] = [

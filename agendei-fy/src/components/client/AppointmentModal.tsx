@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from '@/components/ui/dialog';
-import { Button } from '@/components/ui/button';
-import { ScrollArea } from "@/components/ui/scroll-area";
+import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from '../../components/ui/dialog';
+import { Button } from '../../components/ui/button';
+import { ScrollArea } from "../../components/ui/scroll-area";
 import { useAuth } from '../../contexts/auth/useAuth';
-import { toast } from '@/components/ui/use-toast';
+import { toast } from '../../components/ui/use-toast';
 import AppointmentForm, { AppointmentFormValues } from './AppointmentForm';
-import { createAppointment, rescheduleAppointment } from '@/services/appointmentService';
+import { createAppointment, rescheduleAppointment } from '../../services/appointmentService';
 import { services, providers } from './AppointmentForm';
-import { AppointmentProps } from '@/components/dashboard/AppointmentCard';
+import { AppointmentProps } from '../../components/dashboard/AppointmentCard';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Loader2 } from 'lucide-react';
 

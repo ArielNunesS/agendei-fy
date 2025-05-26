@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { Card, CardContent, CardHeader } from '@/components/ui/card';
-import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
+import { Card, CardContent, CardHeader } from '../../components/ui/card';
+import { Avatar, AvatarImage, AvatarFallback } from '../../components/ui/avatar';
 import { motion } from 'framer-motion';
 import { CheckCircle, Clock, AlertTriangle } from 'lucide-react';
 

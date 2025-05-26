@@ -1,11 +1,11 @@
 
 import React, { ReactNode } from 'react';
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
-import LogoutButton from '@/components/LogoutButton';
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { useAuth } from '@/contexts/auth';
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "../../components/ui/tabs";
+import LogoutButton from '../../components/LogoutButton';
+import { Avatar, AvatarFallback, AvatarImage } from "../../components/ui/avatar";
+import { useAuth } from '../../contexts/auth';
 import { motion } from 'framer-motion';
-import ThemeSwitcher from '@/components/ThemeSwitcher';
+import ThemeSwitcher from '../../components/ThemeSwitcher';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -13,9 +13,9 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger
-} from "@/components/ui/dropdown-menu";
+} from "../../components/ui/dropdown-menu";
 import { Settings, User, Calendar, Bell } from 'lucide-react';
-import { Toaster } from "@/components/ui/toaster";
+import { Toaster } from "../../components/ui/toaster";
 
 interface DashboardLayoutProps {
   children: ReactNode;

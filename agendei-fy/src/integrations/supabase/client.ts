@@ -6,6 +6,6 @@ const SUPABASE_URL = "https://gyjhomfrmtrbpesdquhv.supabase.co";
 const SUPABASE_PUBLISHABLE_KEY = process.env.SUPABASE_KEY;
 
 // Import the supabase client like this:
-// import { supabase } from "@/integrations/supabase/client";
+// import { supabase } from "../../integrations/supabase/client";
 
 export const supabase = createClient<Database>(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY);

@@ -1,10 +1,10 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { containerVariants, itemVariants } from '@/utils/animationVariants';
-import { AppointmentProps } from '@/components/dashboard/AppointmentCard';
-import TodayAppointments from '@/components/dashboard/TodayAppointments';
-import UpcomingAppointments from '@/components/dashboard/UpcomingAppointments';
+import { containerVariants, itemVariants } from '../../utils/animationVariants';
+import { AppointmentProps } from '../../components/dashboard/AppointmentCard';
+import TodayAppointments from '../../components/dashboard/TodayAppointments';
+import UpcomingAppointments from '../../components/dashboard/UpcomingAppointments';
 
 interface AppointmentSectionProps {
   todayAppointments: AppointmentProps[];

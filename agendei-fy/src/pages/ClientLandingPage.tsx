@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { useAuth } from '../contexts/auth';
-import HeroSection from '@/components/client/HeroSection';
+import HeroSection from '../components/client/HeroSection';
 import ServicesSection from '../components/client/ServicesSection';
 import FeaturesSection from '../components/client/FeaturesSection';
 import GamificationSection from '../components/client/GamificationSection';

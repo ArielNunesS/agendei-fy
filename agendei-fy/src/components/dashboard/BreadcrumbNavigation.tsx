@@ -9,7 +9,7 @@ import {
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from "@/components/ui/breadcrumb";
+} from "../../components/ui/breadcrumb";
 
 const formatBreadcrumbLabel = (path: string): string => {
   // Remove hyphens and capitalize first letter

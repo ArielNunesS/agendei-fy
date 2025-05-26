@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import { Button } from "../../components/ui/button";
+import { Input } from "../../components/ui/input";
 import { Loader2, AlertCircle, CheckCircle, Mail, Lock, User } from 'lucide-react';
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
-import { Label } from "@/components/ui/label";
+import { RadioGroup, RadioGroupItem } from "../../components/ui/radio-group";
+import { Label } from "../../components/ui/label";
 import { useAuth } from '../../contexts/auth/useAuth';
 
 const SignupForm = () => {

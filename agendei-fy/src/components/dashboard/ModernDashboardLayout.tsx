@@ -1,10 +1,10 @@
 
 import React, { ReactNode } from 'react';
-import { SidebarProvider } from '@/components/ui/sidebar';
+import { SidebarProvider } from '../../components/ui/sidebar';
 import MainSidebar from './MainSidebar';
 import BreadcrumbNavigation from './BreadcrumbNavigation';
 import PageTransition from './PageTransition';
-import { Toaster } from "@/components/ui/toaster";
+import { Toaster } from "../../components/ui/toaster";
 
 interface ModernDashboardLayoutProps {
   children: ReactNode;

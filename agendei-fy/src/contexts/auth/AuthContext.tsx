@@ -1,6 +1,6 @@
 import React, { createContext, useState, useEffect, ReactNode } from 'react';
 import { Session, User } from '@supabase/supabase-js';
-import { supabase } from '@/integrations/supabase/client';
+import { supabase } from '../../integrations/supabase/client';
 import { useNavigate } from 'react-router-dom';
 import { UserProfile, AuthContextType } from '../auth/types';
 import { fetchUserProfile, handleSignIn, handleSignUp, handleSignOut, handlePasswordReset, handleUpdatePassword } from '../auth/authUtils';

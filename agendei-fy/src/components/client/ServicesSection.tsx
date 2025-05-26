@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { Button } from "../../components/ui/button";
 import { Card, CardContent } from '../../components/ui/card';
 import { Clock, ChevronRight, Star } from 'lucide-react';
-import { Scissors, HandHeart, Leaf } from '@/components/icons/CustomIcons';
+import { Scissors, HandHeart, Leaf } from '../../components/icons/CustomIcons';
 import { Sparkles } from 'lucide-react';
 import { containerVariants, itemVariants } from '../../utils/animationVariations';
 import { Badge } from '../../components/ui/badge';

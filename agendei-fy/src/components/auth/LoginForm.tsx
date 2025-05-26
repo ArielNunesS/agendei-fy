@@ -13,7 +13,7 @@ import {
   DialogClose
 } from "../ui/dialog";
 import { useAuth } from '../../contexts/auth/useAuth';
-import { handlePasswordReset } from '@/contexts/auth/authUtils';
+import { handlePasswordReset } from '../../contexts/auth/authUtils';
 import { Loader2, CheckCircle, AlertCircle, Mail, Lock } from 'lucide-react';
 
 const LoginForm: React.FC = () => {

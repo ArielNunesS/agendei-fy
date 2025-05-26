@@ -1,8 +1,8 @@
 
 import React from 'react';
 import { Info } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Progress } from '@/components/ui/progress';
+import { Button } from '../../components/ui/button';
+import { Progress } from '../../components/ui/progress';
 import { motion } from 'framer-motion';
 
 interface TrialPeriodAlertProps {

@@ -2,8 +2,8 @@
 import React from 'react';
 import { Users, Clock, Calendar, PieChart } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { containerVariants } from '@/utils/animationVariants';
-import MetricCard from '@/components/dashboard/MetricCard';
+import { containerVariants } from '../../utils/animationVariants';
+import MetricCard from '../../components/dashboard/MetricCard';
 
 interface DashboardMetricsProps {
   totalClients: number;

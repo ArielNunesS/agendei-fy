@@ -1,17 +1,17 @@
 
 import React from 'react';
 import { MessageSquare, X, ChevronDown, CheckCircle2, AlertCircle, Clock } from 'lucide-react';
-import { Badge } from '@/components/ui/badge';
-import { Button } from '@/components/ui/button';
+import { Badge } from '../../components/ui/badge';
+import { Button } from '../../components/ui/button';
 import { AppointmentProps } from './AppointmentCard';
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+} from "../../components/ui/dropdown-menu";
 import { motion, AnimatePresence } from 'framer-motion';
-import { Card, CardHeader, CardContent, CardTitle } from '@/components/ui/card';
+import { Card, CardHeader, CardContent, CardTitle } from '../../components/ui/card';
 
 interface TodayAppointmentsProps {
   appointments: AppointmentProps[];

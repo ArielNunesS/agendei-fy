@@ -9,7 +9,7 @@ import {
   CarouselNext, 
   CarouselPrevious 
 } from '../components/ui/carousel';
-import { cn } from '@/lib/utils';
+import { cn } from '../../lib/utils';
 import { Button } from '../components/ui/button';
 import { motion } from 'framer-motion';
 

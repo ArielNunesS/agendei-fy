@@ -6,10 +6,10 @@ import {
   Calendar, Users, BookOpen, Briefcase, PieChart, Clock, 
   Settings, User, LogOut, ExternalLink
 } from 'lucide-react';
-import { cn } from '@/lib/utils';
-import { Button } from '@/components/ui/button';
-import { useAuth } from '@/contexts/auth';
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { cn } from '../../lib/utils';
+import { Button } from '../../components/ui/button';
+import { useAuth } from '../../contexts/auth';
+import { Avatar, AvatarFallback, AvatarImage } from "../../components/ui/avatar";
 import { 
   Sidebar, 
   SidebarContent, 
@@ -20,8 +20,8 @@ import {
   SidebarMenuButton,
   SidebarProvider,
   SidebarTrigger
-} from "@/components/ui/sidebar";
-import ThemeSwitcher from '@/components/ThemeSwitcher';
+} from "../../components/ui/sidebar";
+import ThemeSwitcher from '../../components/ThemeSwitcher';
 
 const MenuItem = ({ 
   to, 
