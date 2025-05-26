@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-unsafe-function-type */
 import { User } from '@supabase/supabase-js';
-import { supabase } from '../../integrations/supabase/client';
 import { UserProfile } from '../auth/types';
 import { toast } from '../../components/ui/sonner';
+import supabase from '../../integrations/supabase/client';
 
 export const fetchUserProfile = async (userId: string): Promise<UserProfile | null> => {
   try {
